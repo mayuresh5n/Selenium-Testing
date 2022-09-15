@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoXML-Test" verbose="1" >
+    <test name="Smoke" >
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+         </groups>
+        <classes>
+            <class name="basicTestNg" />
+            <class name="basicTestNg1" />
+            <class name="basicTestNg2" />
+
+        </classes>
+    </test>
+</suite>
