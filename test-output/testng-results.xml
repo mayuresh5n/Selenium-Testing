@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="41" started-at="2022-09-14T22:12:19 IST" finished-at="2022-09-14T22:12:19 IST">
+    <groups>
+    </groups>
+    <test name="SeleniumAcademy" duration-ms="41" started-at="2022-09-14T22:12:19 IST" finished-at="2022-09-14T22:12:19 IST">
+      <class name="basicTestNg1">
+        <test-method status="PASS" signature="demo5()[pri:0, instance:basicTestNg1@6fc6f14e]" name="demo5" duration-ms="6" started-at="2022-09-14T22:12:19 IST" finished-at="2022-09-14T22:12:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+        <test-method status="PASS" signature="demo2()[pri:0, instance:basicTestNg1@6fc6f14e]" name="demo2" duration-ms="1" started-at="2022-09-14T22:12:19 IST" depends-on-methods="basicTestNg1.demo5" finished-at="2022-09-14T22:12:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- basicTestNg1 -->
+    </test> <!-- SeleniumAcademy -->
+  </suite> <!-- Default Suite -->
+</testng-results>
